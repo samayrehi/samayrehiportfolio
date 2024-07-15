@@ -1,0 +1,89 @@
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: stretch;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 30px 30px 30px;
+  width: 1000px;
+}
+
+.header-content h1 {
+  font-size: 4rem;
+  font-family: "Saira", sans-serif;
+  color: #1F2A2D;
+}
+
+.header-content p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.fullname {
+  font-size: 4rem;
+  margin-top: 10px;
+  color: #0080AA;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.header-payment-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  width: 90%;
+}
+
+.header-payment-container button {
+  background-color: #FFD027;
+  color: #000000;
+  border: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.header-payment-container button:hover {
+  background-color: #1F2A2D;
+  color: #FFD027;
+}
+
+/* Payment Icons */
+
+.google-pay,
+.hdfc-bank {
+  width: 50px;
+  margin-left: 20px;
+}
+
+/* Profile Img */
+.profile-img-container {
+  position: relative;
+  width: 750px;
+  align-self: flex-start;
+}
+
+.profile-img-container img {
+  height: 100%;
+  width: 100%;
+  border-bottom: 10px solid #0080AA;
+  border-left: 10px solid #FFD027;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px;
+}
