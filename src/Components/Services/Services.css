@@ -1,6 +1,6 @@
 .services-container {
   margin: 20px;
-  background-color: #ffffff;
+  background-color: #cfdbd5;
 }
 
 .services-list-container {
@@ -13,6 +13,7 @@
   border-radius: 16px;
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
   padding: 20px;
+  background-color: #e8eddf;
 }
 
 .services-item i {
@@ -23,7 +24,7 @@
 .fa-code,
 .fa-desktop,
 .fa-tablet-alt {
-  color: #0080AA;
+  color: #f5cb5c;
 }
 
 .services-desc-container {
@@ -34,13 +35,13 @@
 }
 
 .services-container h1 span {
-  color: #FFD027;
+  color: #ff7247;
   font-size: 2.5rem;
 }
 
 .services-container button {
-  background-color: #FFD027;
-  color: #000000;
+  background-color: #f5cb5c;
+  color: #242423;
   border: none;
   padding: 10px;
   font-size: 1.2rem;

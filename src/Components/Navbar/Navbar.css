@@ -3,7 +3,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #293241;
+  background-color: #333533;
   padding: 0 20px;
   margin-bottom: 10px;
   height: 75px;
@@ -29,12 +29,12 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #E0FBFC;
+  color: #e8eddf;
 }
 
 nav ul li:hover {
-  background-color: #3D5A80;
-  color: #FFFFFF;
+  background-color: #242423;
+  color: #ffffff;
   padding: 10px;
   margin: 10px;
 }

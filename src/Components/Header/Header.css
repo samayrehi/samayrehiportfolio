@@ -17,7 +17,7 @@
 .header-content h1 {
   font-size: 4rem;
   font-family: "Saira", sans-serif;
-  color: #1F2A2D;
+  color: #333533;
 }
 
 .header-content p {
@@ -29,7 +29,7 @@
 .fullname {
   font-size: 4rem;
   margin-top: 10px;
-  color: #0080AA;
+  color: #ff7247;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
 }
@@ -46,7 +46,7 @@
 }
 
 .header-payment-container button {
-  background-color: #FFD027;
+  background-color: #f5cb5c;
   color: #000000;
   border: none;
   padding: 10px;
@@ -59,7 +59,7 @@
 }
 
 .header-payment-container button:hover {
-  background-color: #EE6C4D;
+  background-color: #1F2A2D;
   color: #FFD027;
 }
 
@@ -81,8 +81,8 @@
 .profile-img-container img {
   height: 100%;
   width: 100%;
-  border-bottom: 10px solid #0080AA;
-  border-left: 10px solid #FFD027;
+  border-bottom: 10px solid #333533;
+  border-left: 10px solid #ff7247;
   border-radius: 50%;
   object-fit: cover;
   margin: 10px;
